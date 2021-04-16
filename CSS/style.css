@@ -11,10 +11,10 @@ html {
 
 /* BARRA DE NAVEGACIÓN */
 header nav {
-    width: 97%;
+    width: 98%;
     height: 10rem;
     margin: 0 auto;
-    margin-top: 1.3rem;
+    margin-top: 13.797px;
     background-color: #fff;
     border: 0.1rem solid #c7a58c;
     display: flex;
@@ -53,7 +53,7 @@ main .left-section {
     width: 82%;
     height: 45rem;
     background-color: #f79647;
-    margin-left: 1.3797rem;
+    margin-left: 13.797px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,4 +107,13 @@ main .right-section div:last-child {
     width: 13rem;
     height: 8rem;
     background-color: #c0504f;
+}
+
+footer {
+    width: 98%;
+    height: 10rem;
+    margin: 0 auto;
+    margin-top: 13.797px;
+    background-color: #8064a1;
+    border: 0.2rem solid #eadaf4;
 }
