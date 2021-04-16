@@ -51,7 +51,7 @@ main {
 
 main .left-section {
     width: 82%;
-    height: 45rem;
+    height: 40rem;
     background-color: #f79647;
     margin-left: 13.797px;
     display: flex;
@@ -82,7 +82,7 @@ main .left-section span {
 
 main .right-section {
     width: auto;
-    height: 45rem;
+    height: 40rem;
     margin-right: 13.797px;
     display: flex;
     flex-direction: column;
@@ -116,4 +116,5 @@ footer {
     margin-top: 13.797px;
     background-color: #8064a1;
     border: 0.2rem solid #eadaf4;
+    margin-bottom: 1rem;
 }
