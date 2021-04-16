@@ -9,6 +9,7 @@ html {
     background-color: #4f81bc;
 }
 
+/* BARRA DE NAVEGACIÓN */
 header nav {
     width: 97%;
     height: 10rem;
@@ -37,3 +38,5 @@ header nav ul li a {
     text-decoration: none;
     color: #000;
 }
+
+/* CONTENIDO PRINCIPAL */
