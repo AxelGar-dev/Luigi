@@ -8,3 +8,32 @@ html {
     font-size: 62.5%;
     background-color: #4f81bc;
 }
+
+header nav {
+    width: 97%;
+    height: 10rem;
+    margin: 0 auto;
+    margin-top: 1.3rem;
+    background-color: #fff;
+    border: 0.1rem solid #c7a58c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 5rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
