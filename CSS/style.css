@@ -20,6 +20,7 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 13.797px;;
 }
 
 header nav ul {
@@ -49,8 +50,8 @@ main {
 }
 
 main .left-section {
-    width: 60%;
-    height: 20rem;
+    width: 82%;
+    height: 45rem;
     background-color: #f79647;
     margin-left: 1.3797rem;
     display: flex;
@@ -72,16 +73,38 @@ main .left-section span {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 5rem;
-    height: 5rem;
+    width: 10rem;
+    height: 10rem;
     align-self: flex-end;
-    margin-right: 5rem;
+    margin-right: 9rem;
     margin-top: 3rem;
 }
 
 main .right-section {
-    width: 35%;
-    height: 20rem;
-    background-color: aqua;
+    width: auto;
+    height: 45rem;
     margin-right: 13.797px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+main .right-section div:first-child {
+    width: 13rem;
+    height: 8rem;
+    background-color: #953735;
+}
+
+main .right-section div:nth-child(2) {
+    width: 10rem;
+    height: 8rem;
+    background-color: #9bbb58;
+}
+
+main .right-section div:last-child {
+    width: 13rem;
+    height: 8rem;
+    background-color: #c0504f;
 }
