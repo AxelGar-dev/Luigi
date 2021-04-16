@@ -40,3 +40,48 @@ header nav ul li a {
 }
 
 /* CONTENIDO PRINCIPAL */
+/* #b87b44 */
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .left-section {
+    width: 60%;
+    height: 20rem;
+    background-color: #f79647;
+    margin-left: 1.3797rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .left-section p {
+    width: 80%;
+    height: auto;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+
+main .left-section span {
+    background-image: url('../fondo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 5rem;
+    height: 5rem;
+    align-self: flex-end;
+    margin-right: 5rem;
+    margin-top: 3rem;
+}
+
+main .right-section {
+    width: 35%;
+    height: 20rem;
+    background-color: aqua;
+    margin-right: 13.797px;
+}
